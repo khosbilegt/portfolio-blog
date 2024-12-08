@@ -1,0 +1,7 @@
+Components:
+    1. Landing Page (in progress)
+    2. Blog Page (in progress)
+        a. Experience Blog
+        b. Project Blog
+        c. Vlog blog
+    3. Terminal Emulator for Flexing (in progress)
