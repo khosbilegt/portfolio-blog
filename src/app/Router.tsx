@@ -5,7 +5,7 @@ import PortfolioLayout from "../features/portfolio/PortfolioLayout";
 function Router() {
   const routes = [
     {
-      path: "/",
+      path: "*",
       element: <PortfolioLayout />,
     },
   ];

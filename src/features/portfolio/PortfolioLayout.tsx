@@ -1,21 +1,15 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../app/ThemeContext";
-import { Button } from "@nextui-org/button";
+import Topbar from "../../components/Topbar";
 
 function PortfolioLayout() {
-  const { theme, setTheme } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
 
   return (
     <main
       className={`${theme} text-foreground bg-background w-screen h-full min-h-screen`}
     >
-      <Button
-        onPress={() => {
-          setTheme(theme === "light" ? "dark" : "light");
-        }}
-      >
-        Test
-      </Button>
+      <Topbar />
     </main>
   );
 }
